@@ -8,33 +8,31 @@ import '@stencil/router';
 
 import '@ionic/core';
 
-import { MyName as MyName } from './components/my-name/my-name';
+import { DemoApp as DemoApp } from './components/demo-app/demo-app';
 
-interface HTMLMyNameElement extends MyName, HTMLElement {
+interface HTMLDemoAppElement extends DemoApp, HTMLElement {
 }
-declare var HTMLMyNameElement: {
-  prototype: HTMLMyNameElement;
-  new (): HTMLMyNameElement;
+declare var HTMLDemoAppElement: {
+  prototype: HTMLDemoAppElement;
+  new (): HTMLDemoAppElement;
 };
 declare global {
   interface HTMLElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "demo-app": HTMLDemoAppElement;
   }
   interface ElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "demo-app": HTMLDemoAppElement;
   }
   namespace JSX {
       interface IntrinsicElements {
-          "my-name": JSXElements.MyNameAttributes;
+          "demo-app": JSXElements.DemoAppAttributes;
       }
   }
   namespace JSXElements {
-      export interface MyNameAttributes extends HTMLAttributes {
+      export interface DemoAppAttributes extends HTMLAttributes {
           mode?: string,
           color?: string,
         
-          first?: string,
-          last?: string
       }
   }
 }

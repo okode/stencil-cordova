@@ -1,10 +1,10 @@
 import { Component } from '@stencil/core';
 
 @Component({
-  tag: 'app',
-  styleUrl: 'app.scss'
+  tag: 'demo-app',
+  styleUrl: 'demo-app.scss'
 })
-export class App {
+export class DemoApp {
 
   render() {
     return (

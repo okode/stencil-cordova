@@ -1,17 +1,17 @@
 import { render } from '@stencil/core/testing';
-import { App } from './app';
+import { DemoApp } from './demo-app';
 
-describe('my-name', () => {
+describe('demo-app', () => {
   it('should build', () => {
-    expect(new App()).toBeTruthy();
+    expect(new DemoApp()).toBeTruthy();
   });
 
   describe('rendering', () => {
     let element;
     beforeEach(async () => {
       element = await render({
-        components: [App],
-        html: '<app></app>'
+        components: [DemoApp],
+        html: '<demo-app></demo-app>'
       });
     });
 
