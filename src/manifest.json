@@ -1,6 +1,6 @@
 {
-  "name": "Stencil Starter",
-  "short_name": "Stencil",
+  "name": "Stencil Cordova App",
+  "short_name": "Stencil Cordova",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
