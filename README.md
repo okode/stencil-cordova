@@ -1,2 +1,14 @@
-# stencil-cordova
-Simple Stencil Cordova App
+# Stencil Cordova App
+
+Simple Stencil Cordova App.
+
+## Creation
+
+```
+$ cordova create demo com.okode.demo demo
+```
+
+## Building
+
+## Running
+
