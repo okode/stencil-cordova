@@ -9,14 +9,26 @@ $ cordova create demo com.okode.demo demo
 $ git clone https://github.com/ionic-team/stencil-app-starter
 ```
 
-## Building
+## Update dependencies
 
 ```
 $ npm install
-$ cordova platform add ios --nofetch
-$ npm run build
-$ cordova build ios
 ```
 
-## Running
+## Add iOS / Android platform
 
+```
+$ cordova platform add [ ios | android ] --nofetch
+```
+
+## Build Stencil App
+
+```
+$ npm run build
+```
+
+## Build iOS / Android App
+
+```
+$ cordova build [ ios | android ]
+```
