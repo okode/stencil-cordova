@@ -19,7 +19,9 @@
   },
   "dependencies": {
     "@stencil/core": "next",
-    "@stencil/router": "latest"
+    "@stencil/router": "latest",
+    "cordova-plugin-whitelist": "1",
+    "cordova-ios": "4.5.2"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
@@ -38,6 +40,14 @@
       "js",
       "json",
       "jsx"
+    ]
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "ios"
     ]
   }
 }
