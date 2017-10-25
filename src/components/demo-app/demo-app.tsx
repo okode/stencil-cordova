@@ -1,4 +1,4 @@
-import { Component } from '@stencil/core';
+import { Component, State } from '@stencil/core';
 
 @Component({
   tag: 'demo-app',
@@ -6,9 +6,14 @@ import { Component } from '@stencil/core';
 })
 export class DemoApp {
 
+  @State() counter = 0;
+
   render() {
     return (
-      <ion-button onClick={() => console.log('Clicked!')}>Say hello to Stencil!</ion-button>
+      <ion-item>
+        <ion-button onClick={() => ++this.counter}>Say hello to Stencil!</ion-button>
+        Clicked {this.counter} times
+      </ion-item>
     );
   }
 
