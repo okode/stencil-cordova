@@ -13,9 +13,7 @@ export class MyName {
 
   render() {
     return (
-      <div>
-        Hello, my name is {this.first} {this.last}
-      </div>
+      <ion-button onClick={() => console.log('Clicked!')}>Say hello to Stencil!</ion-button>
     );
   }
 }

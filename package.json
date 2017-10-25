@@ -18,8 +18,9 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
+    "@ionic/core": "next",
     "@stencil/core": "next",
-    "@stencil/router": "latest",
+    "@stencil/router": "next",
     "cordova-plugin-whitelist": "1",
     "cordova-ios": "4.5.2"
   },

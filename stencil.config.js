@@ -3,7 +3,8 @@ exports.config = {
     { components: ['my-name'] }
   ],
   collections: [
-    { name: '@stencil/router' }
+    { name: '@stencil/router' },
+    { name: '@ionic/core' }
   ]
 };
 

@@ -15,6 +15,12 @@ $ git clone https://github.com/ionic-team/stencil-app-starter
 $ npm install
 ```
 
+## Debug
+
+```
+$ npm start
+```
+
 ## Add iOS / Android platform
 
 ```
