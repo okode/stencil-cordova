@@ -12,6 +12,7 @@ $ git clone https://github.com/ionic-team/stencil-app-starter
 ## Building
 
 ```
+$ npm install
 $ cordova platform add ios --nofetch
 $ npm run build
 $ cordova build ios
