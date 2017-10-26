@@ -21,16 +21,16 @@ $ npm install
 $ npm start
 ```
 
-## Add iOS / Android platform
-
-```
-$ cordova platform add [ ios | android ] --nofetch
-```
-
 ## Build Stencil App
 
 ```
 $ npm run build
+```
+
+## Add iOS / Android platform
+
+```
+$ cordova platform add [ ios | android ] --nofetch
 ```
 
 ## Build iOS / Android App
